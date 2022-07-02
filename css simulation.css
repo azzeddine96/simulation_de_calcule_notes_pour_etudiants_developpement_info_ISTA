@@ -1,0 +1,165 @@
+/* partie head de page : */
+
+.nav{
+    display: flex;
+    justify-content:center
+}
+img{
+    width: 10%;
+    border-radius: 50%;
+    border: 2px solid royalblue;
+    float: right;
+}
+.logo{
+    font-size: 40px;
+    color: royalblue;
+    font-weight: 900;
+    font-style: normal;
+    float: left;
+}
+.welcome p{
+    font-size: 30px;
+    color:rgb(37, 34, 34);
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* partie body (les formulaire) */
+
+form{
+    font-size: 20px;
+}
+.card1{
+    width: 70%;
+    margin-left: 170px;
+    padding: 20px;
+    border: 2px solid royalblue;
+}
+.card2{
+    width: 70%;
+    margin-left: 170px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid royalblue;
+}
+.card3{
+    width: 70%;
+    margin-left: 170px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid royalblue;
+}
+label{
+    color:rgb(37, 34, 34);
+    margin-left: 40px;
+}
+.card1 input , .card2 input , .card3 input{
+    float: right;
+    width: 160px;
+    height: 30px;
+}
+input:hover{
+    border: 2px solid green;
+}
+input:active{
+    border: 2px solid green;
+}
+.btn{
+    background-color: royalblue;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 250px;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 16px;
+    margin-left: 550px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: green;
+    cursor: pointer;
+}
+.note{
+    color: royalblue;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+/* footer de page */
+.nav2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    background: royalblue;
+    border-radius: 30px;
+}
+.social a i{
+    color: aliceblue;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+/* media queries pour l'adaptation du screen */
+@media (max-width: 860px){
+    form{
+        font-size: 14px;
+    }
+    .card1{
+        width: 85%;
+        margin-left: 10px;
+        padding: 20px;
+        border: 2px solid royalblue;
+    }
+    .card2{
+        width: 85%;
+        margin-left: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        border: 2px solid royalblue;
+    }
+    .card3{
+        width: 85%;
+        margin-left: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border: 2px solid royalblue;
+    }
+    label{
+        color:rgb(37, 34, 34);
+        margin-left: 10px;
+    }
+    .card1 input , .card2 input , .card3 input{
+        float: right;
+        width: 100px;
+        height: 20px;
+        
+    }
+    input:hover{
+        border: 2px solid green;
+    }
+    input:active{
+        border: 2px solid green;
+    }
+    .btn{
+        background-color: royalblue;
+        color: aliceblue;
+        border-radius: 30px;
+        width: 200px;
+        border: 2px solid white;
+        padding: 15px;
+        font-size: 16px;
+        margin-left: 120px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background: green;
+        cursor: pointer;
+    }
+}
